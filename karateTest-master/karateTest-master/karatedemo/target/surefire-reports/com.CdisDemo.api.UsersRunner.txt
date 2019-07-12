@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.CdisDemo.api.UsersRunner
+-------------------------------------------------------------------------------
+Tests run: 73, Failures: 0, Errors: 16, Skipped: 17, Time elapsed: 23.263 s <<< FAILURE! - in com.CdisDemo.api.UsersRunner
+When method post(Scenario: check status code of PDMetadataGenerationService service)  Time elapsed: 0.048 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of PDMetadataGenerationService service  Time elapsed: 0.049 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of ManifestGenerateHandler service)  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of ManifestGenerateHandler service  Time elapsed: 0.012 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of FtpFileHandler service)  Time elapsed: 0.001 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of FtpFileHandler service  Time elapsed: 0.002 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of PlanRenameService service)  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of PlanRenameService service  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of PdfSplitHandler service)  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of PdfSplitHandler service  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of PdfTextOverlayService service)  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of PdfTextOverlayService service  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of ContentXmlGenerateHandler service)  Time elapsed: 0.001 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of ContentXmlGenerateHandler service  Time elapsed: 0.001 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+When method post(Scenario: check status code of PdfConversionService service)  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+Scenario: check status code of PdfConversionService service  Time elapsed: 0 s  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+

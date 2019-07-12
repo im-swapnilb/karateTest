@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.CdisDemo.api.UsersRunner" time="23.263" tests="73" errors="16" skipped="17" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SBandgar\eclipse-workspace\karatedemo\target\test-classes;C:\Users\SBandgar\eclipse-workspace\karatedemo\target\classes;C:\Users\SBandgar\.m2\repository\com\intuit\karate\karate-junit4\0.8.0\karate-junit4-0.8.0.jar;C:\Users\SBandgar\.m2\repository\com\intuit\karate\karate-core\0.8.0\karate-core-0.8.0.jar;C:\Users\SBandgar\.m2\repository\com\jayway\jsonpath\json-path\2.1.0\json-path-2.1.0.jar;C:\Users\SBandgar\.m2\repository\net\minidev\json-smart\2.2\json-smart-2.2.jar;C:\Users\SBandgar\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\SBandgar\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\SBandgar\.m2\repository\org\yaml\snakeyaml\1.18\snakeyaml-1.18.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\SBandgar\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\SBandgar\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\SBandgar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SBandgar\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\SBandgar\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\SBandgar\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\SBandgar\.m2\repository\com\intuit\karate\karate-apache\0.8.0\karate-apache-0.8.0.jar;C:\Users\SBandgar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\SBandgar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\SBandgar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\SBandgar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\SBandgar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.475\aws-java-sdk-s3-1.11.475.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.475\aws-java-sdk-kms-1.11.475.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.475\aws-java-sdk-core-1.11.475.jar;C:\Users\SBandgar\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\SBandgar\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.2\jackson-databind-2.6.7.2.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\SBandgar\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\jmespath-java\1.11.475\jmespath-java-1.11.475.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SBandgar\AppData\Local\Temp\surefire2863723819446419870\surefirebooter1763016540502098695.jar C:\Users\SBandgar\AppData\Local\Temp\surefire2863723819446419870 2019-01-22T13-27-41_629-jvmRun1 surefire4749513253602801088tmp surefire_03606815922354595070tmp"/>
+    <property name="test" value="UsersRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\SBandgar\eclipse-workspace\karatedemo\target\test-classes;C:\Users\SBandgar\eclipse-workspace\karatedemo\target\classes;C:\Users\SBandgar\.m2\repository\com\intuit\karate\karate-junit4\0.8.0\karate-junit4-0.8.0.jar;C:\Users\SBandgar\.m2\repository\com\intuit\karate\karate-core\0.8.0\karate-core-0.8.0.jar;C:\Users\SBandgar\.m2\repository\com\jayway\jsonpath\json-path\2.1.0\json-path-2.1.0.jar;C:\Users\SBandgar\.m2\repository\net\minidev\json-smart\2.2\json-smart-2.2.jar;C:\Users\SBandgar\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\SBandgar\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\SBandgar\.m2\repository\org\yaml\snakeyaml\1.18\snakeyaml-1.18.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\SBandgar\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\SBandgar\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\SBandgar\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\SBandgar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SBandgar\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\SBandgar\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\SBandgar\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\SBandgar\.m2\repository\com\intuit\karate\karate-apache\0.8.0\karate-apache-0.8.0.jar;C:\Users\SBandgar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\SBandgar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\SBandgar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\SBandgar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\SBandgar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.475\aws-java-sdk-s3-1.11.475.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.475\aws-java-sdk-kms-1.11.475.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.475\aws-java-sdk-core-1.11.475.jar;C:\Users\SBandgar\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\SBandgar\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.2\jackson-databind-2.6.7.2.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\SBandgar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\SBandgar\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\SBandgar\.m2\repository\com\amazonaws\jmespath-java\1.11.475\jmespath-java-1.11.475.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SBandgar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="C:\Users\SBandgar\eclipse-workspace\karatedemo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SBandgar\AppData\Local\Temp\surefire2863723819446419870\surefirebooter1763016540502098695.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="SBandgar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SBandgar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SBandgar\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\SBandgar\eclipse-workspace\karatedemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\CCM;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\ProgramData\WebEx\WebEx\Applications;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\SBandgar\Downloads\apache-maven-3.6.0\bin;C:\Users\SBandgar\Downloads\gradle-3.5.1\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\SBandgar\AppData\Local\Microsoft\WindowsApps;C:\Users\SBandgar\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\SBandgar\Downloads\apache-maven-3.6.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="* url baseurl" classname="Scenario: check status code of PDMetadataGenerationService service" time="0.008"/>
+  <testcase name="* def PDMetadataGenerationService = read(&apos;PDMetadataGenerationService_request.json&apos;)" classname="Scenario: check status code of PDMetadataGenerationService service" time="0"/>
+  <testcase name="Given path &apos;PDMetadataGenerationService/cdis/doc/pd/&apos;" classname="Scenario: check status code of PDMetadataGenerationService service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of PDMetadataGenerationService service" time="0"/>
+  <testcase name="And request PDMetadataGenerationService" classname="Scenario: check status code of PDMetadataGenerationService service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of PDMetadataGenerationService service" time="0.048">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:27:53.088 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/PDMetadataGenerationService/cdis/doc/pd/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 438
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"cdisId":"995bca5785d6435aa47697f18334e6ca","tsn":"26086","requestId":"201800952203","drNumber":"200300879477","titleCode":"ABO","addendumName":"","fileCount":1,"cdisDeliverySequenceId":null,"cdisPackageDirectory":null,"fileList":[],"bucketName":"dodge-qa-dodge-cdis","pdfFolderPath":"/Supported/PDF","planFolderPath":"/Supported/Plan","nonPlanFolderPath":"/Supported/Non-Plan","sourceFolderPath":"200300879477/ABO","resubmission":false}
+
+13:27:55.237 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2148 milliseconds for URL: http://localhost:8080/PDMetadataGenerationService/cdis/doc/pd/
+13:27:55.238 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of PDMetadataGenerationService service" classname="Scenario: check status code of PDMetadataGenerationService service" time="0.049">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of PDMetadataGenerationService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of PDMetadataGenerationService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of ManifestGenerateHandler service" time="0"/>
+  <testcase name="* def ManifestGenerateHandler = read(&apos;ManifestGenerateHandler_request.json&apos;)" classname="Scenario: check status code of ManifestGenerateHandler service" time="0"/>
+  <testcase name="Given path &apos;ManifestGenerateHandler/cdis/doc/manifest/&apos;" classname="Scenario: check status code of ManifestGenerateHandler service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of ManifestGenerateHandler service" time="0"/>
+  <testcase name="And request ManifestGenerateHandler" classname="Scenario: check status code of ManifestGenerateHandler service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of ManifestGenerateHandler service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:27:55.398 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/ManifestGenerateHandler/cdis/doc/manifest/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 462
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"cdisId":"34ea165fcbbb4c97a60bce6ccd86cdc1","tsn":"50335","requestId":"0ed472fc-e9de-42e6-80b3-effd4bc21401","drNumber":"201800967972","titleCode":"@@@","addendumName":"","fileCount":3,"cdisDeliverySequenceId":null,"cdisPackageDirectory":null,"fileList":[],"bucketName":"dodge-qa-dodge-cdis","pdfFolderPath":"/Supported/PDF","planFolderPath":"/Supported/Plan","nonPlanFolderPath":"/Supported/Non-Plan","sourceFolderPath":"201800967972/@@@","resubmission":false}
+
+13:27:57.419 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2020 milliseconds for URL: http://localhost:8080/ManifestGenerateHandler/cdis/doc/manifest/
+13:27:57.425 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of ManifestGenerateHandler service" classname="Scenario: check status code of ManifestGenerateHandler service" time="0.012">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of ManifestGenerateHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of ManifestGenerateHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of FtpFileHandler service" time="0"/>
+  <testcase name="* def FtpFileHandler = read(&apos;FtpFileHandler_request.json&apos;)" classname="Scenario: check status code of FtpFileHandler service" time="0"/>
+  <testcase name="Given path &apos;FtpFileHandler/cdis/ftp/dr/&apos;" classname="Scenario: check status code of FtpFileHandler service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of FtpFileHandler service" time="0"/>
+  <testcase name="And request FtpFileHandler" classname="Scenario: check status code of FtpFileHandler service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of FtpFileHandler service" time="0.001">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:27:57.487 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/FtpFileHandler/cdis/ftp/dr/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 476
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"cdisId":"9ec7487efa7443d9be45978295d026de","tsn":"51277","requestId":"f57bdb9e-7d8b-4e9b-ad62-f9c591612ef2","drNumber":"201800968360","titleCode":"@@@","addendumName":"RFRNC02","fileCount":1,"cdisDeliverySequenceId":null,"cdisPackageDirectory":null,"fileList":[],"bucketName":"dodge-qa-dodge-cdis","pdfFolderPath":"/Supported/PDF","planFolderPath":"/Supported/Plan","nonPlanFolderPath":"/Supported/Non-Plan","sourceFolderPath":"201800968360-RFRNC02/@@@","resubmission":true}
+
+13:27:59.504 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2006 milliseconds for URL: http://localhost:8080/FtpFileHandler/cdis/ftp/dr/
+13:27:59.505 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of FtpFileHandler service" classname="Scenario: check status code of FtpFileHandler service" time="0.002">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of FtpFileHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of FtpFileHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of PlanRenameService service" time="0"/>
+  <testcase name="* def PlanRenameService = read(&apos;PlanRenameService_request.json&apos;)" classname="Scenario: check status code of PlanRenameService service" time="0"/>
+  <testcase name="Given path &apos;PlanRenameService/cdis/plan/defaults/&apos;" classname="Scenario: check status code of PlanRenameService service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of PlanRenameService service" time="0"/>
+  <testcase name="And request PlanRenameService" classname="Scenario: check status code of PlanRenameService service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of PlanRenameService service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:27:59.577 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/PlanRenameService/cdis/plan/defaults/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 182
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"drNumber":"201800967972","titleCode":"@@@","addendumName":"","cdisId":"34ea165fcbbb4c97a60bce6ccd86cdc1","fileName":"201800967972/@@@/Supported/Plan-Rename-Input/plan_output.json"}
+
+13:28:01.588 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2011 milliseconds for URL: http://localhost:8080/PlanRenameService/cdis/plan/defaults/
+13:28:01.588 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of PlanRenameService service" classname="Scenario: check status code of PlanRenameService service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of PlanRenameService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of PlanRenameService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of PdfSplitHandler service" time="0"/>
+  <testcase name="* def PdfSplitHandler = read(&apos;PdfSplitHandler_request.json&apos;)" classname="Scenario: check status code of PdfSplitHandler service" time="0"/>
+  <testcase name="Given path &apos;PdfSplitHandler/cdis/doc/split&apos;" classname="Scenario: check status code of PdfSplitHandler service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of PdfSplitHandler service" time="0"/>
+  <testcase name="And request PdfSplitHandler" classname="Scenario: check status code of PdfSplitHandler service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of PdfSplitHandler service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:28:01.679 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/PdfSplitHandler/cdis/doc/split
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 707
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"drNumber":"201500623260","docId":"8058e240790a4b85b9a7c4746b959ea1","cdisId":"6d32e952462142ed99270dd05dd152fd","addendumName":"","titleCode":"ZZZ","fileName":"_WR-2018-032-Tender-Appendix-G-Drawings.pdf","fileSize":29208323,"fileFormat":"pdf","supportedFlag":1,"file_lastModified":null,"s3Url":"vidya/_WR-2018-032-Tender-Appendix-G-Drawings.pdf","expirationTime":null,"statusCode":"CDIS_STS_006","docSplitCount":null,"createdBy":"CDIS","createDate":1542842364000,"updatedBy":null,"updatedDate":null,"bucketName":"dodge-dev-dodge-cdis","sourceFolder":"201500623260/ZZZ","destFolder":null,"planFolder":"/Supported/Plan","nonplanFolder":"/Supported/Non-Plan","pdfFolder":"/Supported/PDF","otherFolder":null}
+
+13:28:03.692 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2013 milliseconds for URL: http://localhost:8080/PdfSplitHandler/cdis/doc/split
+13:28:03.692 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of PdfSplitHandler service" classname="Scenario: check status code of PdfSplitHandler service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of PdfSplitHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of PdfSplitHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of PdfTextOverlayService service" time="0"/>
+  <testcase name="* def PdfTextOverlayService = read(&apos;PdfTextOverlayService_request.json&apos;)" classname="Scenario: check status code of PdfTextOverlayService service" time="0"/>
+  <testcase name="Given path &apos;PdfTextOverlayService/cdis/doc/overlay/&apos;" classname="Scenario: check status code of PdfTextOverlayService service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of PdfTextOverlayService service" time="0.001"/>
+  <testcase name="And request PdfTextOverlayService" classname="Scenario: check status code of PdfTextOverlayService service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of PdfTextOverlayService service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:28:03.760 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/PdfTextOverlayService/cdis/doc/overlay/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 743
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"drNumber":"201800967055","docId":"fd1c11b6577a4414b92b377d32970d06","cdisId":"ce9b9996e6814428962fc360850cf9de","addendumName":"RFRNC04","titleCode":"@@@","fileName":"X67408_LINEWORK.dwg","fileSize":3117369,"fileFormat":"dwg","supportedFlag":1,"file_lastModified":null,"s3Url":"f1/c1/f1c1ca12-6dfd-4ca2-a0fd-734027efbacd/pns/qa/MHC_18_10_31_343371.505706/X67408_LINEWORK.dwg","expirationTime":null,"statusCode":"CDIS_STS_006","docSplitCount":null,"createdBy":"CDIS","createDate":1542842364000,"updatedBy":null,"updatedDate":null,"bucketName":"dodge-qa-dodge-cdis","sourceFolder":"201800967055-RFRNC04/@@@","destFolder":null,"planFolder":"/Supported/Plan","nonplanFolder":"/Supported/Non-Plan","pdfFolder":"/Supported/PDF","otherFolder":null}
+
+13:28:05.768 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2007 milliseconds for URL: http://localhost:8080/PdfTextOverlayService/cdis/doc/overlay/
+13:28:05.768 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of PdfTextOverlayService service" classname="Scenario: check status code of PdfTextOverlayService service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of PdfTextOverlayService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of PdfTextOverlayService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0"/>
+  <testcase name="* def ContentXmlGenerateHandler = read(&apos;ContentXmlGenerateHandler_request.json&apos;)" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0"/>
+  <testcase name="Given path &apos;ContentXmlGenerateHandler/cdis/doc/content/&apos;" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0"/>
+  <testcase name="And request ContentXmlGenerateHandler" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0.001">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:28:05.833 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/ContentXmlGenerateHandler/cdis/doc/content/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 462
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"cdisId":"7130eb4d29ad45c3aff8f14d2fa63c2b","tsn":"55169","requestId":"a87dc139-c832-48e0-9fd3-260f4c38de7e","drNumber":"201800970108","titleCode":"@@@","addendumName":"","fileCount":1,"cdisDeliverySequenceId":null,"cdisPackageDirectory":null,"fileList":[],"bucketName":"dodge-qa-dodge-cdis","pdfFolderPath":"/Supported/PDF","planFolderPath":"/Supported/Plan","nonPlanFolderPath":"/Supported/Non-Plan","sourceFolderPath":"201800970108/@@@","resubmission":false}
+
+13:28:07.842 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2008 milliseconds for URL: http://localhost:8080/ContentXmlGenerateHandler/cdis/doc/content/
+13:28:07.843 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of ContentXmlGenerateHandler service" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0.001">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of ContentXmlGenerateHandler service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* url baseurl" classname="Scenario: check status code of PdfConversionService service" time="0"/>
+  <testcase name="* def PdfConversionService = read(&apos;PdfConversionService_request.json&apos;)" classname="Scenario: check status code of PdfConversionService service" time="0"/>
+  <testcase name="Given path &apos;PdfConversionService/cdis/nonpdf/feeds/&apos;" classname="Scenario: check status code of PdfConversionService service" time="0"/>
+  <testcase name="And header Content-Type = &apos;application/json&apos;" classname="Scenario: check status code of PdfConversionService service" time="0"/>
+  <testcase name="And request PdfConversionService" classname="Scenario: check status code of PdfConversionService service" time="0"/>
+  <testcase name="When method post" classname="Scenario: check status code of PdfConversionService service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+    <system-out><![CDATA[13:28:07.904 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/PdfConversionService/cdis/nonpdf/feeds/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 743
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_191)
+{"drNumber":"201800967055","docId":"fd1c11b6577a4414b92b377d32970d06","cdisId":"ce9b9996e6814428962fc360850cf9de","addendumName":"RFRNC04","titleCode":"@@@","fileName":"X67408_LINEWORK.dwg","fileSize":3117369,"fileFormat":"dwg","supportedFlag":1,"file_lastModified":null,"s3Url":"f1/c1/f1c1ca12-6dfd-4ca2-a0fd-734027efbacd/pns/qa/MHC_18_10_31_343371.505706/X67408_LINEWORK.dwg","expirationTime":null,"statusCode":"CDIS_STS_006","docSplitCount":null,"createdBy":"CDIS","createDate":1542842364000,"updatedBy":null,"updatedDate":null,"bucketName":"dodge-qa-dodge-cdis","sourceFolder":"201800967055-RFRNC04/@@@","destFolder":null,"planFolder":"/Supported/Plan","nonplanFolder":"/Supported/Non-Plan","pdfFolder":"/Supported/PDF","otherFolder":null}
+
+13:28:09.911 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2006 milliseconds for URL: http://localhost:8080/PdfConversionService/cdis/nonpdf/feeds/
+13:28:09.912 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: check status code of PdfConversionService service" classname="Scenario: check status code of PdfConversionService service" time="0">
+    <error message="&#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" type="com.intuit.karate.exception.KarateException">com.intuit.karate.exception.KarateException: 
+
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+</error>
+  </testcase>
+  <testcase name="Then status 200" classname="Scenario: check status code of PdfConversionService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* print response" classname="Scenario: check status code of PdfConversionService service" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And match response contains {&quot;createdBy&quot;: &quot;CDIS&quot;}" classname="Scenario: check status code of PdfConversionService service" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
